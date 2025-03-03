@@ -148,6 +148,8 @@ header a{
 .arrows button:hover{
     background-color: #fff;
     color: #000;
+    cursor: pointer;
+    z-index: 100;
 }
 
 /* animation */
@@ -305,6 +307,15 @@ header a{
     }
     .carousel .list .item .content .title{
         font-size: 30px;
+    }
+
+}
+@media screen and (min-width: 500px) {
+    .carousel .list .item .content{
+        padding-right: 0;
+    }
+    .carousel .list .item .content .title{
+        font-size: 20px;
     }
 
 }
